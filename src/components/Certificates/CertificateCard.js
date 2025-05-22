@@ -9,7 +9,7 @@ function CertificateCard({ imgPath, title, description, link }) {
         variant="top"
         src={imgPath}
         alt={title}
-        style={{ height: "200px", objectFit: "cover" }}
+        style={{ height: "250px", objectFit: "contain" }}
       />
       <Card.Body>
         <Card.Title>{title}</Card.Title>

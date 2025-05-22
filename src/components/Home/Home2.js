@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import { FaCode } from "react-icons/fa"; 
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -77,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com/home?lang=en"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://github.com/Nim-88rocks"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -96,8 +97,18 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
+             <a
+              href="https://www.naukri.com/code360/profile/maverickk" // Replace with your actual profile URL
+              target="_blank"
+               rel="noreferrer"
+               className="icon-colour home-social-icons"
+        >
+      <FaCode /> {/* Or use an <img src="..."/> for the Coding Ninjas logo */}
+    </a>
+  </li>
+              <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/niimesh_88/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

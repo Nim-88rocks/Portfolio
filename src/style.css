@@ -473,6 +473,14 @@ button:focus {
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
 
+.certificate-section {
+  position: relative !important;
+  padding-top: 150px !important;      /* Same as project-section */
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
